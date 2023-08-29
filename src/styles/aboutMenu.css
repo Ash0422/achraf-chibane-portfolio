@@ -1,0 +1,141 @@
+.menu {
+  width: 19rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 60%;
+  transform: translateY(-60%);
+  left: 10vw;
+}
+
+.item {
+  height: 3.7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+.item.active .title {
+  font-size: 1.5rem;
+}
+
+.container-sub {
+  width: 18.5rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 32%;
+  right: 10vw;
+  cursor: pointer;
+}
+
+.active-subheading {
+  cursor: default;
+}
+
+.item.active:nth-child(1) {
+  background: linear-gradient(90deg, var(--trans), var(--green) 70%);
+  border-radius: var(--right-radius);
+}
+.item.active:nth-child(2) {
+  background: linear-gradient(90deg, var(--trans), var(--blue) 70%);
+  border-radius: var(--right-radius);
+}
+.item.active:nth-child(3) {
+  background: linear-gradient(90deg, var(--trans), var(--cyan) 70%);
+  border-radius: var(--right-radius);
+}
+
+.container-sub-1.active-subheading h3,
+.container-sub-2.active-subheading h3,
+.container-sub-3.active-subheading h3 {
+  border-radius: var(--left-radius);
+}
+.container-sub-1.active-subheading h3 {
+  background: linear-gradient(90deg, var(--green), var(--trans) 100%);
+}
+.container-sub-2.active-subheading h3 {
+  background: linear-gradient(90deg, var(--blue), var(--trans) 100%);
+}
+.container-sub-3.active-subheading h3 {
+  background: linear-gradient(90deg, var(--cyan), var(--trans) 100%);
+}
+
+.item.active {
+  position: relative;
+  cursor: default;
+}
+
+.container-p {
+  display: none;
+}
+
+.active-subheading .container-p {
+  display: block;
+  font-size: 1rem;
+}
+
+.container-sub-title {
+  display: flex;
+  gap: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.container-sub-1 h3,
+.container-sub-2 h3,
+.container-sub-3 h3 {
+  position: relative;
+  margin: 0.2rem 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+@media (max-width: 1100px) {
+  .container-sub {
+    right: 1rem;
+  }
+  .item.active .title {
+    font-size: 1rem;
+  }
+  .item {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-sub {
+    width: 15rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .title {
+    font-size: 1rem;
+    padding-right: 2.5rem;
+  }
+
+  .active-subheading .container-p {
+    font-size: 0.8rem;
+  }
+  .container-sub-title,
+  .icon {
+    display: none;
+  }
+  h1 {
+    font-size: 0.8rem;
+  }
+  h2,
+  h3,
+  p {
+    font-size: 0.8rem;
+  }
+}
