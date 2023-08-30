@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/backg.css";
-import video from "../assets/matrix-bg.mp4";
+import video from "../assets/universe2.mp4";
 import fallBimage from "../assets/fallback-img.jpg";
 
 const Background = () => {
