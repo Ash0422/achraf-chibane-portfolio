@@ -1,6 +1,6 @@
 import projectOne from "../assets/portfolio.png";
 import projectTwo from "../assets/Quiz-Game2.png";
-import projectThree from "../assets/Project1.png";
+import projectThree from "../assets/Screenshot1.png";
 
 const project = {
   1: {
@@ -14,7 +14,7 @@ const project = {
       </>
     ),
     github: "https://github.com/Ash0422/achraf-chibane-portfolio",
-    website: "https://github.com/Ash0422/achraf-chibane-portfolio",
+    website: "https://achrafchibane.com",
   },
   2: {
     title: "United States Civic Quiz Game",
@@ -30,17 +30,17 @@ const project = {
     website: "https://ash0422.github.io/04-Quiz-Game/",
   },
   3: {
-    title: "Catch-Em-All",
+    title: "Adidas Website",
     image: projectThree,
     description: (
       <>
         <p>
-        The Pokemon Adoption Center is a virtual space where users can browse and adopt various types of Pokemon. It is an online platform that allows users to view different Pokemon types, read descriptions of each Pokemon's characteristics, and ultimately adopt their favorite Pokemon for their own collection. The Adoption Center may include various features such as filtering options for specific Pokemon types, sorting options based on various criteria, and a shopping cart for users to keep track of their selected Pokemon. The main goal of the Pokemon Adoption Center is to provide users with a fun and engaging experience while offering a diverse selection of Pokemon for adoption.
+        The Adidas website redesign aims to provide an immersive and user-friendly experience to customers who visit the site. It has been developed with a focus on responsive design to ensure that the website functions seamlessly on various devices, from desktop computers to smartphones and tablets.
         </p>
       </>
     ),
-    github: "https://github.com/Ash0422/Catch-Em-All",
-    website: "https://netlify.com/",
+    github: "https://github.com/Ash0422/adidas-website",
+    website: "https://main--peppy-truffle-c5d975.netlify.app/",
   },
 };
 

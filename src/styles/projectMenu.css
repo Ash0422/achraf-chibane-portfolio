@@ -104,7 +104,7 @@
     align-items: center;
   }
   .project-menu p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .container-sub-project {
     margin-top: 1rem;
@@ -115,7 +115,7 @@
   }
 
   .container-link a {
-    margin-top: 0.5rem;
+    margin-top: 0;
     width: 50%;
     height: 2rem;
   }

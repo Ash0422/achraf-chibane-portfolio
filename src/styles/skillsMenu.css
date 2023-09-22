@@ -20,11 +20,12 @@
 
 .skill-title {
   font-size: 1rem;
-  padding-right: 2.5rem;
+  padding-right: 3rem;
 }
 
 .item-skill.activeSkill .skill-title {
   font-size: 1.5rem;
+  padding-left: 2rem;
 }
 
 .activeSkill {
