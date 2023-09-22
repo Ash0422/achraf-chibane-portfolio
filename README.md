@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>achraf-chibane-portfolio</h1>
+  <img src="./src/assets/ash-avatar7.png" alt="MasterHead">
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-jFJkzqmj3najsAm9piS5Jz5bO5zqWtDk5Q6j06Id7aR/qq5r5Ow5owF5CZIpEckF" crossorigin="anonymous">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#Features)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to my portfolio! This is a collection of my work as a web developer and designer. It showcases my skills, projects, and provides information about me.
 
-### `npm test`
+## Screenshots
+## Folder Structure <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image of the application 1](./src/assets/FolderStracture1.png)
 
-### `npm run build`
+## Screenshot of the Website :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image of the application 3](./src/assets/Screenshot01.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## The following image shows  the About Me :
+![image of the application 3](./src/assets/Screenshot01.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## The following image shows the Skills : 
+![image of the application 3](./src/assets/Screenshot02.png)
 
-### `npm run eject`
+## The following image shows The Projects :  
+![image of the application 3](./src/assets/Screenshot03.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## The following image shows the Contact Me : 
+![image of the application 3](./src/assets/Screenshot04.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
+To run this website locally, follow these steps: <br>
+1- Clone the repository to your local machine:
+```
+git@github.com:Ash0422/achraf-chibane-portfolio.git
+```
+ 
+2- Navigate to the project directory: 
+~~~
+cd achraf-chibane-portfolio
+~~~ 
 
-## Learn More
+3- Install the project dependencies: <br>
+~~~
+npm install
+~~~
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4-Start the development server: <br>
+~~~
+npm start
+~~~
+or just check the Website on this link:   [Achraf Portfolio](https://achrafchibane.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+Feel free to use this portfolio project as a template for your own portfolio. You can customize it by adding your own projects, updating the content in the `src/data` directory, and adjusting the styling to match your personal preferences.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Features
+- **Responsive Design:** The portfolio is fully responsive and looks great on all devices.
+- **Project Showcase:** You can see a variety of projects I've worked on, including web applications, websites, and more.
+- **About Me:** Learn about my background, skills, and interests.
+- **Contact:** Find ways to get in touch with me, including email and social media links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+If you'd like to contribute to this project, please open an issue or submit a pull request. Contributions and feedback are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tests
+The website has been tested by the creator and it works fine.<br>
+this application has been uploaded to github:  [Achraf's Portfolio GitHub](https://github.com/Ash0422/achraf-chibane-portfolio)<br>
+this application has been deployed to a domain:  [Achraf's Portfolio Website](https://achrafchibane.com)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Questions
+For any additional questions, please contact me by email <i class="fas fa-envelope"></i> [chibane.tkd04@gmail.com](mailto:chibane.tkd04@gmail.com) or visit my GitHub profile <i class="fab fa-github"></i> [Ash0422](https://github.com/Ash0422).
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
