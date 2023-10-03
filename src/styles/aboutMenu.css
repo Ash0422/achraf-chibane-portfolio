@@ -23,6 +23,7 @@
 
 .item.active .title {
   font-size: 1.5rem;
+  color: black;
 }
 
 .container-sub {
@@ -56,6 +57,8 @@
 .container-sub-2.active-subheading h3,
 .container-sub-3.active-subheading h3 {
   border-radius: var(--left-radius);
+  color: black;
+  text-shadow: 1px 1px 2px #ffffff
 }
 .container-sub-1.active-subheading h3 {
   background: linear-gradient(90deg, var(--green), var(--trans) 100%);
@@ -78,13 +81,15 @@
 
 .active-subheading .container-p {
   display: block;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  /* color: rgb(5, 179, 5); */
 }
 
 .container-sub-title {
   display: flex;
   gap: 1.3rem;
   margin-bottom: 0.6rem;
+  
 }
 
 .icon {
